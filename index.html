@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student Portfolio Login - BIT315 Assignment">
+    <title>Login - Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+</head>
+<body>
+    <!-- Custom Cursor Elements -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-follower"></div>
+
+    <div class="container">
+        <div class="form-container">
+            <h2>Login to Your Portfolio</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username">
+                    <div id="username-error" class="error">Username must be at least 4 characters long</div>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password">
+                    <div id="password-error" class="error">Password must be at least 6 characters long</div>
+                </div>
+                Remember Me<input type="checkbox" id="remember-me" name="remember-me"><br>
+                <button type="submit" class="btn">Login</button>
+            </form>
+            <p class="login-redirect">Don't have an account? <a href="home.html">Continue as guest</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Student Portfolio. All rights reserved.</p>
+            <p>BIT315 Web Development Assignment</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
