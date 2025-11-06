@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // If valid, redirect to home page
             if (isValid) {
-                window.location.href = 'Home.html';
+                window.location.href = 'home.html';
             }
         });
     }
@@ -145,5 +145,4 @@ function showSlides(n) {
             dots[slideIndex].className += " active-dot";
         }
     }
-
 }
